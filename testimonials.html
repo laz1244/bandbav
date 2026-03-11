@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Client Testimonials</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #111827;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #111827, #374151);
+      color: white;
+      padding: 64px 20px 48px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: 2.4rem;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: 0 auto;
+      color: rgba(255,255,255,0.88);
+      font-size: 1.05rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+
+    .intro {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 24px;
+      margin-top: -22px;
+      box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 28px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+    }
+
+    .quote-mark {
+      font-size: 2.6rem;
+      line-height: 1;
+      color: #9ca3af;
+      margin-bottom: 12px;
+    }
+
+    .quote {
+      margin: 0 0 18px;
+      font-size: 1rem;
+    }
+
+    .client {
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .role {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 32px;
+    }
+
+    .stat-box {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .stat-box h3 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .stat-box p {
+      margin: 8px 0 0;
+      color: var(--muted);
+    }
+
+    .cta {
+      margin-top: 32px;
+      background: #111827;
+      color: white;
+      border-radius: 18px;
+      padding: 28px;
+      text-align: center;
+    }
+
+    .cta h2 {
+      margin-top: 0;
+    }
+
+    .cta p {
+      color: rgba(255,255,255,0.86);
+      max-width: 680px;
+      margin: 0 auto 18px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      background: white;
+      color: #111827;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 28px 20px 40px;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .intro {
+        margin-top: -14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>Client Testimonials</h1>
+    <p>
+      Client testimonials from through my career talking about work I have provided.
+    </p>
+  </section>
+
+  <main class="container">
+    <section class="intro">
+      <h2>What clients have said</h2>
+      <p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <div class="quote-mark">“</div>
+        <p class="quote">
+          I have no complaints about Zak in all my experience working with him. My drums always sound the way I like them and after gigs there’s always plenty of people saying how amazing the sound job was. I look forward to working with him more in the future.
+        </p>
+        <p class="client">Jenson Cartridge</p>
+        <p class="role">Drummer for Oh! Rosie</p>
+      </article>
+
+      <article class="card">
+        <div class="quote-mark">“</div>
+        <p class="quote">
+          A very reliable and hardworking technician. Problem solving was excellent, and they adapted well to changes on the day while keeping the event running professionally.
+        </p>
+        <p class="client">The Purbeck School</p>
+        <p class="role">6th Form Leadership Conference 2023</p>
+      </article>
+
+      <article class="card">
+        <div class="quote-mark">“</div>
+        <p class="quote">
+          They are always super friendly and amazing to work with and help create the experience very enjoyable. Also reliable and can be sure to not let you down.
+        </p>
+        <p class="client">Lulworth Players</p>
+        <p class="role">Yearly Pantomime</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+</body>
+</html>
